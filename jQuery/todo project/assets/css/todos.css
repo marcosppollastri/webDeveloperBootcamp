@@ -18,6 +18,7 @@ body{
   border: 2px solid gray;
   width: 360px;
   margin: 0 auto;
+  margin-top: 65px;
   padding: 25px;
 }
 
@@ -31,11 +32,14 @@ h1 {
 }
 
 span {
-  color: white;
-  background: rgb(110, 6, 6);
+  color: rgb(110, 6, 6);
 }
 
 li {
   /* background: gray; */
   margin-bottom: 4px;
+}
+
+ul{
+  list-style-type: none;
 }
