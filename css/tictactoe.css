@@ -1,0 +1,26 @@
+
+td{
+
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    border-right: 2px solid black;
+
+
+}
+table{
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+tr.top td{
+    border-bottom: 2px solid black;
+}
+
+td.last{
+    border-right: 0;
+}
+

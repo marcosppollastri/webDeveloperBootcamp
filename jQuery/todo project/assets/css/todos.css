@@ -1,0 +1,32 @@
+body{
+  font-family: 'Fira Sans', sans-serif;
+  color: rgb(40,30,60);
+
+
+}
+
+.container{
+  border: 2px solid gray;
+  width: 360px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.completed{
+  color: gray;
+  text-decoration: line-through;
+}
+
+span {
+  color: white;
+  background: rgb(110, 6, 6);
+}
+
+li {
+  /* background: gray; */
+  margin-bottom: 4px;
+}

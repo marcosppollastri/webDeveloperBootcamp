@@ -1,0 +1,18 @@
+* {
+    font-family: monospace;
+}
+
+h1 {
+    color: brown;
+    backface-visibility: inherit;
+}
+
+li {
+    padding: 3%;
+    color: azure;
+}
+
+h4 {
+    width: 100%;
+    background-color: azure;
+}

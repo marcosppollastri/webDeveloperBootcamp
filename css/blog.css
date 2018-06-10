@@ -1,0 +1,38 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 15px solid rgba(189, 195, 199, 1);
+    
+}
+
+h5 {
+    color: #3498db;
+    letter-spacing: 5px;
+    font-size: 14px;
+    text-transform: uppercase; 
+}
+
+h2{
+    font-size: 2.0rem;
+
+    color: #2c3e50;
+    letter-spacing: 1.5px;
+}
+.title{
+    text-align: center;
+    color: #2c3e50;
+}
+
+p:first-of-type{
+    border-left: 3px solid #bdc3c7;
+    padding-left: 4px;
+}
+
+.post{
+    border-bottom: 1px solid rgba(189, 195, 199, 0.5);
+}

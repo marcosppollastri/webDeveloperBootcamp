@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+  </head>
+  <body>
+
+    <h1>Register</h1>
+
+    <form class="" method="get">
+      <!-- firstname and lastname -->
+      <div class="">
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" required>
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" required>
+      </div>
+      <!-- Gender -->
+      <div class="">
+        <label for="gender">Male:</label>
+        <input type="radio" name="gender" value="male" required>
+        <label for="gender">Female:</label>
+        <input type="radio" name="gender" value="female" required>
+        <label for="gender">Other:</label>
+        <input type="radio" name="gender" value="other" required>
+      </div>
+      <!-- email and password -->
+      <div class="">
+        <label for="email">Email:</label>
+        <input type="text" name="email" required>
+        <label for="password">Password:</label>
+        <input type="password" name="password" required pattern=".{8,16}" title="La contraseña debe tener entre 8 y 16 caracteres">
+      </div>
+      <!-- Birthday -->
+      <div class="">
+        <label for="birthday">Birthday</label>
+        <!-- <select name="birthday">
+          <option value="Jan">Jan</option>
+          <option value="Feb">Feb</option>
+        </select>
+        <select name="birthday">
+          <option value="03">03</option>
+          <option value="04">04</option>
+        </select>
+        <select  name="birthday">
+          <option value="1994">1994</option>
+          <option value="1995">1995</option>
+        </select> -->
+        <input type="date" name="birthday" id="birthday">
+      </div>
+      <!-- Terms and conditions -->
+      <div class="">
+        <label for="terms">I agree the terms and conditions</label>
+        <input type="checkbox" name="terms" value="true" required>
+
+      </div>
+      <input type="submit" value="Go">
+    </form>
+
+
+  </body>
+</html>

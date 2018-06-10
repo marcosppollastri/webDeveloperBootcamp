@@ -1,0 +1,28 @@
+body {
+    background-color: #232323;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: azure;
+}
+
+/* span {
+    color:azure;
+} */
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
+#stripe {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+}
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+}
