@@ -1,3 +1,11 @@
+/**
+ * @author Marcos J. Peña Pollastri
+ * @email marcos.p.pollastri@gmail.com
+ * @create date 2018-06-09 11:56:59
+ * @modify date 2018-06-09 11:56:59
+ * @desc [description]
+*/
+
 
 $("#addTodo").on("click", function(){
     var input = $("#input").val();
