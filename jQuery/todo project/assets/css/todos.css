@@ -15,15 +15,22 @@ body{
 }
 
 .container{
-  border: 2px solid gray;
+  box-shadow: 0 0 3px rgba(0,0,0, 0.1);
   width: 360px;
-  margin: 0 auto;
-  margin-top: 65px;
-  padding: 25px;
+  margin: 100px auto;
+  /* padding: 25px; */
+  background: #f7f7f7;
 }
 
 h1 {
   text-align: center;
+  background: #2980b9;
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 .completed{
@@ -37,9 +44,33 @@ span {
 
 li {
   /* background: gray; */
-  margin-bottom: 4px;
+  /* margin-bottom: 4px; */
+  background: white;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+}
+
+li:nth-child(2n){
+  background: #f7f7f7;
 }
 
 ul{
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+input{
+  font-size: 18px;
+  background: #f7f7f7;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  color: #2980b9;
+}
+
+input:focus{
+  background: white;
+  border: 3px solid #2980b9;
+  outline: none;
 }
