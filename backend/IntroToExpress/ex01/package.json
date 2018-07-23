@@ -1,0 +1,14 @@
+{
+  "name": "firstexpressapp",
+  "version": "0.0.1",
+  "description": "First express app created as an excersice for the Web Developer Bootcamp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcos J. Peña Pollastri",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
