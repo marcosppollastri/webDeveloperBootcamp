@@ -1,0 +1,10 @@
+body{
+    background: firebrick;
+    color: azure;
+}
+
+footer {
+    position: fixed;
+    width: 50%;
+    bottom: 10px;
+}
