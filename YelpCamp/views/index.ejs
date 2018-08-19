@@ -29,7 +29,13 @@
         <% campgrounds.forEach(function(campground){ %>
             <div class="col-md-3 col-sm-6">
                 <div class="thumbnail">
-                    <img src="<%= campground.image %>" alt="<%= campground.name %>">                    <%= campground.name %>
+                    <img src="<%= campground.image %>" alt="<%= campground.name %>">
+                    <div class="caption">
+                        <%= campground.name %>
+                    </div>
+                    
+                    <a href="campgrounds/<%= campground._id%>" type="button" class="btn btn-info">More info!</a>
+                              
                 </div>
             
                 <!-- <%= campground.name %> -->
