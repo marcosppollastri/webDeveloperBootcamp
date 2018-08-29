@@ -1,0 +1,17 @@
+{
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "A simple blog app made to learn restful routing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcos J. Peña Pollastri",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.9"
+  }
+}
